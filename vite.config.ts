@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react';
 
 // لازم تضيف base بنفس اسم الريبو على GitHub
 export default defineConfig({
+  base: '/bitcarveVV/',
   plugins: [react()],
 });
